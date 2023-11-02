@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="calendar">
+    <div class="header">
+      <input type="date" id="fecha" onchange="verificarEdad()" />
+    </div>
+    <div class="month">
+      <div class="month-header" id="month-header"></div>
+      <div class="weekdays">
+        <div class="weekday">D</div>
+        <div class="weekday">L</div>
+        <div class="weekday">M</div>
+        <div class="weekday">M</div>
+        <div class="weekday">J</div>
+        <div class="weekday">V</div>
+        <div class="weekday">S</div>
+      </div>
+      <div class="days" id="days-container"></div>
+    </div>
+  </div>
+
+  <script src="calendario.js"></script>
+</body>
+</html>
+
+
+  
